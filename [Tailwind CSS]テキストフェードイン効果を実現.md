@@ -1,3 +1,11 @@
+---
+title: "[Tailwind CSS]テキストフェードイン効果を実現" # 記事のタイトル
+emoji: "🍎" # アイキャッチとして使われる絵文字（1文字だけ）
+type: "tech" # tech: 技術記事 / idea: アイデア記事
+topics: ["tailwind", "css", "react", "web"] # タグ。["markdown", "rust", "aws"]のように指定する
+published: true # 公開設定（falseにすると下書き）
+---
+
 > 中国人です、日本語の文法が下手で申し訳ございません。コメント欄で私の間違いを指摘していただければ幸いです。
 
 # [Tailwind CSS + IntersectionObserver] フェードイン 効果
