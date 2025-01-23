@@ -14,7 +14,7 @@ published: true # 公開設定（falseにすると下書き）
 
 Apple の公式 Web サイトにあるようなテキストのフェードイン効果を実現するには、IntersectionObserver を使用して、テキストがウィンドウに入ったかどうかを判断します。
 
-テキストがウィンドウに入ったら、opacity　と　translate-y　を変化する。
+テキストがウィンドウに入ったら、opacity 　と　 translate-y 　を変化する。
 
 ```tsx
 export const Comp = () => {
@@ -37,7 +37,6 @@ export const Comp = () => {
     };
   }, [ref, inView]);
 
-
   return (
     <h1
       className={cn(
@@ -48,6 +47,6 @@ export const Comp = () => {
     >
       飛ぶ込み内容
     </h1>
-  )
-}
+  );
+};
 ```
